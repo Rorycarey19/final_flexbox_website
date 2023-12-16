@@ -1,11 +1,9 @@
 body{
-    background-color: #F2F2F2;
+    background-color: #181717;
 }
 
-/* header sytles */
-
 header {
-    background-color:#F29F05;
+    background-color:#c10606;
     padding: 10px 0px 10px 0px;
    
     
@@ -23,7 +21,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .push {
     margin-left: auto;
@@ -40,7 +38,7 @@ button {
 }
 
 button:hover {
-    background-color: limegreen;
+    background-color: rgb(244, 6, 6);
     color: white;
 }
 
@@ -50,59 +48,22 @@ button:active{
     transform: translateY(4px);
 }
 
-/*li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
-/* section one flex grow and shrink */
 
 .section-one {
     background-color: blueviolet;
-    
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 50px 0px 50px 0px;
+    color: aliceblue;
+    text-align: center;
 }
 
-.flexgrow-container {
-    display: flex;
-}
-
-.box1 {
-    background-color: skyblue;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
-.box2 {
-
-    background-color: lightgreen;
-    
-    height: 200px;
-    flex: 2 1 auto;
-}
-
-.box3 {
-
-    background-color: darkmagenta;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
-/* section 2 center item */
 
 .section-two {
     background-color:  #BF0426;
-    height: 700px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* section 3 youtube video */
@@ -165,21 +126,4 @@ footer{
     font-size: x-small;
     color: white;
     padding: 10px 0px;
-}
-
-/*button.html*/
-
-.button-one-section{
-    background-color: #BF0426;
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-top-img{
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 10p 10px 20px black;
-    width: 70%;
 }
