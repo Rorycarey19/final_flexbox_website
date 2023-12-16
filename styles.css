@@ -21,6 +21,8 @@ ul {
     padding: 5px;
 }
 .container-navigation {
+    position: sticky;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
