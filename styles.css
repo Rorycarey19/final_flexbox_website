@@ -60,9 +60,16 @@ button:active{
     flex-wrap: wrap;
 }
 
-/* section 3 youtube video */
+.media-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
 
-.section-three {
+.section-three{
     height: 400px;
     background-color: #6c6c71;
     display: flex;
@@ -72,14 +79,6 @@ button:active{
     font-size: large;
     color: aliceblue;
 }
-
-iframe { 
-    padding: 5px;
-    
-}
-
-
-/* section 4 embed audio */
 
 .section-four {
     background-color: #BF0426;
@@ -92,31 +91,8 @@ iframe {
     justify-content: center;
 }
 
-/* section 5 media items */
-.media-container{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
-}
-
-.media-container .mediacontent{
-    flex: 1;
-    padding: 10px;
-}
-
-.mediacontent{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 20px;
-}
-
-.section-five {
-    background-color: #D95A11;
-}
-
 footer{
-    background-color: #F29F05;
+    background-color: #e00df3;
     height: 30px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
